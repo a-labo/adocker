@@ -1,6 +1,6 @@
 {
   "name": "adocker",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Docker command wrapper",
   "main": "lib",
   "browser": false,
