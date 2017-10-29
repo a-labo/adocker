@@ -1,6 +1,6 @@
 {
   "name": "adocker",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Docker command wrapper",
   "main": "lib",
   "browser": false,
@@ -25,15 +25,15 @@
   "dependencies": {
     "asleep": "^1.0.3",
     "co": "^4.6.0",
-    "debug": "^2.3.2",
+    "debug": "^3.1.0",
     "hasbin": "^1.2.3"
   },
   "devDependencies": {
-    "amocha": "^2.0.0",
+    "amocha": "^4.0.0",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^5.0.20",
+    "ape-tmpl": "^6.0.2",
     "ape-updating": "^4.0.5",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0"
