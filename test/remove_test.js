@@ -6,22 +6,22 @@
 
 const remove = require('../lib/commands/remove.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('remove', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Remove', () => co(function * () {
+  it('Remove', async () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

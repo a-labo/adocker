@@ -6,22 +6,22 @@
 
 const spawnWithInput = require('../lib/helpers/spawn_with_input.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('spawn-with-input', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Spawn with input', () => co(function * () {
+  it('Spawn with input', async () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

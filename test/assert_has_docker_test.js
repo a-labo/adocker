@@ -6,22 +6,22 @@
 
 const assertHasDocker = require('../lib/helpers/assert_has_docker.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('assert-has-docker', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Assert has docker', () => co(function * () {
+  it('Assert has docker', async () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

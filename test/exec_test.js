@@ -6,22 +6,22 @@
 
 const exec = require('../lib/commands/exec.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('exec', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Exec', () => co(function * () {
+  it('Exec', async () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

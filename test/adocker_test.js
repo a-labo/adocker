@@ -6,25 +6,25 @@
 
 const adocker = require('../lib/adocker.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('adocker', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Network command', () => co(function * () {
+  it('Network command', async () => {
     let { network } = adocker
-    yield network.create('hoge')
-    yield network.inspect('hoge')
-    yield network.remove('hoge')
-  }))
+    await network.create('hoge')
+    await network.inspect('hoge')
+    await network.remove('hoge')
+  })
 })
 
 /* global describe, before, after, it */
